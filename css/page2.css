@@ -1,0 +1,53 @@
+html{
+	background-image: url("images/bckgrnd1.jpg");
+	min-height: 100%;
+	min-width: 1000px;
+	width: 100%
+	background-position: top right;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-color: #EEEEE4;
+}
+body{
+	font-family: helvetica, sans-serif;
+	font-size: small;
+	padding: 40px;
+	text-align: center;
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 0px 10px 1px;
+}
+
+h1{
+	font-family: Snell Roundhand, cursive;
+}
+.content{
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 0px 10px 1px;
+	background-color: #FFFFFF;
+	color: #A8A7A7;
+	text-align: justify;
+}
+
+img.profile{
+	max-width: 100%;
+	visibility: visible;
+ 	opacity: 0.6;
+  	transition: 0.3s;
+}
+
+img.profile:hover{
+	opacity: 1
+}
+
+.music{
+	width: 10%;
+}
+
+img.HBD{
+	max-width: 100%;
+	visibility: visible;
+ 	opacity: 0.6;
+  	transition: 0.3s;
+}
